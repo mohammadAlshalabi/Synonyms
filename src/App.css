@@ -1,0 +1,40 @@
+.App {
+  padding-left: 20%;
+  padding-top: 10rem;
+  padding-right: 20%;
+  font-size: x-large;
+  /* max-width: fit-content; */
+}
+
+button {
+  justify-content: center;
+  width: 14rem;
+  height: 3.3rem;
+  font-size: x-large;
+  float: right;
+}
+
+input {
+  font-size: x-large;
+  margin-left: 1rem;
+  width: 14rem;
+  height: 3rem;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
