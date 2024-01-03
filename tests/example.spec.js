@@ -1,6 +1,6 @@
 const { test } = require('@playwright/test');
 
-test('has title', async ({ page }) => {
+test('It should display synonyms in a table with the correct order', async ({ page }) => {
   await page.goto('/');
   await page.route('**/*', route => route.continue());
 

@@ -11,6 +11,10 @@
     - Go to http://localhost:3000/ to see the app
 
   ### Running Playwright tests
-    - Open a second terminal tab
+    - Open another terminal tab
     - Type `npx playwright test` or `npx playwright test --headed` if you want to see it on headed mode
+
+  ### Running cypress tests
+    - Open another terminal tab
+    - Type `npx cypress run` or `npx cypress run --headed` if you want to see it on headed mode
     
