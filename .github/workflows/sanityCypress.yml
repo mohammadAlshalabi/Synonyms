@@ -1,0 +1,17 @@
+name: "Sanity"
+on:
+  pull_request
+jobs:
+  runTests:
+    name: Cypress run
+    runs-on: ubuntu-20.04
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install packages
+        run: npm i
+        timeout-minutes: 5
+      - name: 'UI Tests - Chrome'
+        uses: cypress-io/github-action@v4 # use the explicit version number
+        
